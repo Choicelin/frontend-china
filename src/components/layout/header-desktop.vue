@@ -2,9 +2,9 @@
    <header class="app-header">
       <div class="container">
         <div class="inner">
-          <a href="/" class="logo-text">
-            前端 <span class="china-text">中国</span> |{{' '}}
-            <span class="slogan">交流 分享</span>
+          <a href="/" class="logo-text ac">
+            <img class="logo mr-5" src="/images/logo.png" alt=""><span class="mr-5">Frontend China</span> |
+            <span class="slogan ml-5 china-text">交流 分享</span>
           </a>
           <!-- <div class="app-user" @click="mouseEnterAvatar">
             <img class="avatar" src="" alt="" />
@@ -73,7 +73,10 @@ export default {
       .logo-text {
         color: $primary;
         font-size: 20px;
-        flex: 0 0 215px;
+        flex: 0 0 315px;
+        .logo {
+          width: 35px;
+        }
       }
       .china-text {
         color: red;
