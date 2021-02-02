@@ -24,7 +24,7 @@ import LoginModal from '@/components/login-modal'
 export default {
   data () {
     return {
-      LoginModalVisible: false
+      loginModalVisible: false
     }
   },
   components: {
@@ -32,10 +32,10 @@ export default {
   },
   methods: {
     closeLoginModal () {
-      this.LoginModalVisible = false
+      this.loginModalVisible = false
     },
     showLoginModal () {
-      this.LoginModalVisible = true
+      this.loginModalVisible = true
     },
     mouseEnterAvatar () {
     }
