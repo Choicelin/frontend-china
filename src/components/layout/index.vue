@@ -7,7 +7,6 @@
 
 <script>
 import { mapState } from 'vuex'
-
 import HeaderDesktop from '@/components/layout/header-desktop'
 export default {
   computed: {
