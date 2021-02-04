@@ -79,10 +79,10 @@ export default {
         }
       }
       .china-text {
-        color: red;
+        color: #847f79;
       }
       .slogan {
-        font-size: 14px;
+        font-size: 18px;
       }
       .app-user {
         .avatar {
